@@ -1,6 +1,7 @@
 FreeCodeCamp Responsive Design Project 1  
 Project Page: https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-tribute-page/  
-Requirements: Use HTML, JavaScript, and CSS to complete this project  
+
+Personal Goal: Use HTML and CSS to practice flex-box and CSS grid techniques.
 
 USER STORIES:  
 User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements.  
