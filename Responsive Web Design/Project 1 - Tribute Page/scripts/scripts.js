@@ -1,1 +1,0 @@
-// Programmer: Michelle "Mitch" Estanol (mestanol@tutanota.com)

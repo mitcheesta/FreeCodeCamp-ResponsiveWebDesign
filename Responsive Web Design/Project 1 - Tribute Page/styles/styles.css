@@ -1,11 +1,22 @@
 /* Programmer: Michelle "Mitch" Estanol (mestanol@tutanota.com) */
+:root{
+    --accent-color:  #8A0000;
+    --link-color: #6161FF;
+}
+
 body{
     font-size: 16px;
     font-family: 'Segoe UI', sans-serif;    
 }
 
 main{
-    background-color: #F3F2F2;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: minmax(400px, 600px);
+    background-color: #000;
+    color: #fff;
 }
 
 header{
@@ -36,13 +47,17 @@ nav ul{
 }
 
 nav  ul  li{
-    padding: 2px 4px;
+    padding: .25em .5em;
     display: inline; 
 }
 
     nav ul li:hover{
-        padding: 2px 1x;
+        /* color: #8A0000; */
         text-decoration-line: underline;
+    }
+
+    nav a:hover{
+        color: var(--accent-color);
     }
 
 nav a{
@@ -51,6 +66,60 @@ nav a{
     text-decoration-line: none;
 }
 
-#image{
-    width: 100%;
+footer{
+    text-align: center;
+    background-color: #DC4747;
 }
+    footer p{
+        margin: 0;
+        padding: 1em 0;
+        color: #000;
+    }
+
+#img-div{
+    padding: 2em;
+}
+
+#image{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    /* max-height: 100%; */
+    display: block;
+    /* margin: 0; */
+    border-radius: 15%;
+}
+
+#img-caption{
+    padding: 0.25em;
+    background-color: #fff;
+    color: #000;
+    /* width: 50%; */
+    /* margin: 0 auto; */
+    /* z-index: 5; */
+} 
+
+#tribute-quote{
+    font-size: 2em;
+    /* margin: auto; */
+    align-self: center;
+}
+
+#tribute-info{
+    padding: 2em;
+    grid-column: 1 / 3;
+}
+
+#tribute-link{
+    /* margin-top: 2em; */
+    grid-column: 1 / 3;
+    text-align: center;
+}
+
+    #tribute-link a:link{
+        color: var(--link-color);
+    }
+
+    #tribute-link a:visited{
+        color: var(--link-color);
+    }
